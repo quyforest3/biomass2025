@@ -1,3 +1,15 @@
+---
+title: Biomass 2025 Dashboard
+emoji: 🌱
+colorFrom: green
+colorTo: teal
+sdk: streamlit
+sdk_version: "1.35.0"
+python_version: "3.11"
+app_file: biomass2025/dashboard_streamlit_app.py
+pinned: true
+---
+
 # 🌱 Biomass 2025 Dashboard
 
 Interactive dashboard for above-ground biomass (AGB) modeling using GEDI, Sentinel-1/2, and derived features. Includes training, diagnostics, feature analysis, and spatial views.
