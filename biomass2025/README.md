@@ -2,7 +2,7 @@
 title: Biomass 2025 Dashboard
 emoji: 🌱
 colorFrom: green
-colorTo: teal
+colorTo: blue
 sdk: streamlit
 sdk_version: "1.35.0"
 python_version: "3.11"
