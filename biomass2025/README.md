@@ -10,20 +10,7 @@ app_file: biomass2025/dashboard_streamlit_app.py
 pinned: true
 ---
 
-## 📍 Giới thiệu (Tiếng Việt)
-
-**Biomass 2025 Dashboard** là ứng dụng phân tích dữ liệu sinh khối rừng (AGB - Above-Ground Biomass) tích hợp công nghệ AI/ML. Ứng dụng sử dụng dữ liệu từ vệ tinh GEDI, Sentinel-1/2 để dự báo khối lượng sinh khối và cung cấp các công cụ phân tích:
-
-- 🤖 **Dự báo**: Mô hình ensemble (Random Forest, LightGBM, XGBoost, SVR) với độ chính xác cao
-- 📊 **Phân tích**: Hình ảnh hóa hiệu suất mô hình, tầm quan trọng đặc trưng, chẩn đoán lỗi
-- 🗺️ **Không gian**: Bản đồ tương tác, phân cụm dữ liệu, xác định điểm nóng sinh khối
-- 📈 **Huấn luyện**: Tối ưu hóa siêu tham số và so sánh mô hình trực tiếp trong giao diện
-
-Phù hợp cho nhà nghiên cứu, kỹ sư môi trường, và những ai quan tâm đến quản lý rừng và biến đổi khí hậu.
-
----
-
-# 🌱 Biomass 2025 Dashboard
+# 🌱 Biomass 2025
 
 Interactive dashboard for above-ground biomass (AGB) modeling using GEDI, Sentinel-1/2, and derived features. Includes training, diagnostics, feature analysis, and spatial views.
 
