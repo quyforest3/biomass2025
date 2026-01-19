@@ -1,0 +1,226 @@
+# Biomass Estimation - .gitignore
+
+# ========================================
+# Python
+# ========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ========================================
+# Machine Learning Models & Data
+# ========================================
+# Trained models (too large for Git)
+models/saved_models/*.pkl
+models/saved_models/*.h5
+models/scalers/*.pkl
+*.pkl
+*.h5
+*.model
+*.joblib
+
+# Large datasets (use Git LFS or external storage)
+data/raw/*.csv
+data/processed/*.csv
+data/interim/*.csv
+*.csv
+!requirements.txt
+!FEI\ data/opt_means_cleaned.csv
+
+# Shapefiles
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# GeoJSON/KML
+*.geojson
+*.kml
+*.json
+!package.json
+!config.json
+
+# Compressed data
+*.zip
+*.tar.gz
+*.rar
+
+# ========================================
+# Outputs & Results
+# ========================================
+outputs/figures/*.png
+outputs/figures/*.jpg
+outputs/figures/*.html
+outputs/results/*.csv
+outputs/reports/*.pdf
+outputs/reports/*.html
+
+# HTML visualizations
+*.html
+!docs/*.html
+
+# Image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# ========================================
+# Jupyter Notebooks
+# ========================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints/
+
+# Jupyter Notebook output
+*-checkpoint.ipynb
+
+# ========================================
+# IDEs & Editors
+# ========================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ========================================
+# Virtual Environments
+# ========================================
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+conda-env/
+
+# ========================================
+# Operating System
+# ========================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.bat
+!scripts/*.bat
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ========================================
+# Streamlit
+# ========================================
+.streamlit/
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# ========================================
+# Logs & Temp Files
+# ========================================
+*.log
+*.tmp
+*.temp
+logs/
+*.cache
+
+# ========================================
+# Testing
+# ========================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ========================================
+# Documentation
+# ========================================
+site/
+docs/_build/
+
+# ========================================
+# Project Specific
+# ========================================
+# Temporary experimental files
+code*.py
+untitled*.py
+collectdata2.py
+collectdata3.py
+code6_files/
+
+# Old documentation
+chapter-*.pdf
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# OneDrive (in case syncing issues)
+~$*
+
+# ========================================
+# Keep These Important Files
+# ========================================
+!README.md
+!LICENSE
+!CONTRIBUTING.md
+!CHANGELOG.md
+!requirements.txt
+!.gitignore
+!docs/**
+!assets/**
+!config/**
+
+# Keep sample data for demo
+!data/sample/**
+
+# Keep documentation images
+!assets/*.png
+!assets/*.jpg
+!docs/images/*.png
+!docs/images/*.jpg
+
