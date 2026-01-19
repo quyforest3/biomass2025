@@ -23,7 +23,6 @@ contextily>=1.6.0
 cartopy>=0.23.0
 bokeh>=3.4.0
 matplotlib-scalebar>=0.8.1
-richdem>=0.3.4
 
 # Data access & utilities
 requests>=2.31.0
@@ -37,7 +36,3 @@ catboost>=1.2.5
 deap>=1.3.3
 hyperopt>=0.2.7
 keras-tuner>=1.4.6
-tensorflow>=2.16.0
-
-# Catalogue client
-terracatalogueclient>=1.0.1
